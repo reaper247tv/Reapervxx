@@ -1,0 +1,115 @@
+  <body style="background-color";">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+      <div id="balance-display">Balance:<span id="balance">0</span></div>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        .coin-container {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        .coin-image {
+          width: vw;
+          height: 40vh;
+          object-fit: contain;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="coin-container">
+        <button onclick="increaseBalance()">
+          <img class="coin-image" src="https://i.im.ge/2024/09/07/fWXvAc.IMG-5179.png" style="background-color:transparent;"// Get the balance element from the DOM
+let balanceElement = document.getElementById('balance');
+
+// Get the current balance from localStorage (if it exists), otherwise initialize it to 0
+let balance = localStorage.getItem('balance') || 0;
+
+// Update the balance display on the page
+balanceElement.innerText = 'Balance: ' + balance;
+
+function increaseBalance() {
+  balance += 8; // Increase the balance
+  localStorage.setItem('balance', balance); // Store the updated balance in localStorage
+  balanceElement.innerText = 'Balance: ' + balance; // Update the displayed balance
+} alt="Coin">
+        </button>
+        <div id="balance"></div>
+      </div>
+
+      <script>
+        let balance = 0;
+
+        function increaseBalance() {
+          balance += 8;
+          document.getElementById('balance').innerText = ' ' + balance;
+        }
+      </script>
+    </body>
+    </html>
+  </script>
+</body>
+
+	<script>
+		let balance = 0;
+
+		function increaseBalance() {
+			balance += 8;
+			document.getElementById('balance').innerText = 'Balance: ' + balance;
+		}
+	</script>
+</body>
+</html>
+
+
+
+	<script>
+		let balance = localStorage.getItem('balance') || 0;
+		document.getElementById('balance').innerText = 'Balance: ' + balance;
+
+		function increaseBalance() {
+			balance += 8;
+			localStorage.setItem('balance', balance);
+			document.getElementById('balance').innerText = 'Balance: ' + balance;
+		}
+	</script>
+</body>
+</html>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+<style>
+  body {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAtU-BUXMsm2IJ4VNCO-vLVjXVxw9_EjvsNmfyDxjMaLXEj-OUPA32X19qmVjjil6Jr6ZdspJmd8Hps4C3T0SEoMVvB79R8vc9GYddgcWIIPbeZ3hE_-WRubY9uvMn1dh31nT2_DlW3jSbEr0SkN9UZQ96sKTizuz6F5z1WVzDDh9SefePXe2xuo1qRT-q/s1329/IMG_5169.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
+
+  <script>
+    let balance = localStorage.getItem('balance') || 0;
+    document.getElementById('balance').innerText = 'Balance: ' + balance;
+
+    function increaseBalance() {
+      let randomAmount = Math.floor(Math.random() * 16) + 1; // Generate random amount between 1 and 16
+      balance += randomAmount; // Increase the balance
+      localStorage.setItem('balance', balance);
+      document.getElementById('balance').innerText = 'Balance: ' + balance;
+    }
+  </script>
+
+</div>
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiinl8uJlig9SSZo8jqRUJpU3tiB5RWTs1rzvlGFhHx3uNl7YaYqqslSe7ZU7SZO9Y3ujACsx_GPH4MajQ8-5V1iu_-WusRAWcfgfexTdz4V9WHwwXTgpBtk6SWC-pzRX2NMR-1Juv15KtDaK0S2qYMn17gdNc-AqqtXLAef15OrrUcAbqfd-vs4stLzNUe/s1059/IMG_5178.png" id="top-left-image">
+
+<script src="script.js"></script>
