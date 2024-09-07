@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#balance-display {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: solid;
+  border: 1px solid #FF00FF;
+  padding: 10px;
+  color: #FFFF00; /* Yellow text */
+  font-weight: bold;
+}
+
+.coin-image {
+  width: vw;
+  height: 40vh;
+  object-fit: contain;
+  background-color: transparent;
+  border-radius: 50%; /* This line rounds the image */
+}
+
+/* Styling for the "8" display */
+#display-8 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em; /* Adjust font size as needed */
+  color: #000; /* Black text */
+  display: none; /* Hide by default */
+}function increaseBalance() {
+  balance += 8; 
+  console.log("Balance before saving:", balance); // Add this line 
+  localStorage.setItem('balance', balance); 
+  balanceElement.innerText = 'Balance: ' + balance;
+}html {
+  height: 100%;
+  width: 100%;
+}
+#balance-display {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: solid;
+  border: 1px solid #FF00FF;
+  padding: 10px;
+  color: #FFFF00; /* Yellow text */
+  font-weight: bold;
+}
+
+#top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px; /* adjust the width as needed */
+  height: 100; /* adjust the height as needed */
+  z-index: 1; /* ensure the image is on top of other elements */
+}
