@@ -13,7 +13,7 @@
   <p align="center"><a href="https://koyeb.com"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" width="380" height="38.45"/></a></p>
 
 
-#### DEPLOY TO Replit (This shit also Going paid)
+#### DEPLOY TO Replit
 
 1. If You don't have an account in Replit. Create an account.
     <br>
