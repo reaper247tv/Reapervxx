@@ -10,7 +10,7 @@
 
 2. Now deploy
    <br>
-  <p align="center"><a href="https://guru-bot-deploy.vercel.app"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" width="380" height="38.45"/></a></p>
+  <p align="center"><a href="https://koyeb.com"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" width="380" height="38.45"/></a></p>
 
 
 #### DEPLOY TO Replit (This shit also Going paid)
